@@ -44,7 +44,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int pageIndex = 0;
-  final pages = [ChatsScreen(), const ProfileScreen()];
+  final pages = [const ChatsScreen(), const ProfileScreen()];
 
   @override
   Widget build(BuildContext context) {

@@ -48,7 +48,6 @@ class ConversationScreenState extends State<ConversationScreen> {
         time: DateTime.now(),
         from: "You",
         messageType: MessageType.text));
-
     setState(() {
       _scrollController.animateTo(_scrollController.position.maxScrollExtent,
           duration: const Duration(milliseconds: 100), curve: Curves.bounceIn);

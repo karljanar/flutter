@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter41/screens/chats.dart';
-import 'package:flutter41/screens/profile.dart';
+import 'package:untitled/screens/chats.dart';
+import 'package:untitled/screens/profile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,9 +19,8 @@ class MyApp extends StatelessWidget {
           titleTextStyle: Theme.of(context)
               .textTheme
               .apply(
-                bodyColor: Colors.green.shade50,
-                displayColor: Colors.green.shade50,
-              )
+                  bodyColor: Colors.green.shade50,
+                  displayColor: Colors.green.shade50)
               .headline6,
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
@@ -29,6 +28,17 @@ class MyApp extends StatelessWidget {
           selectedItemColor: Colors.green.shade50,
           unselectedItemColor: Colors.green.shade900,
         ),
+        bottomSheetTheme:
+            const BottomSheetThemeData(backgroundColor: Colors.green),
+        cardColor: Colors.green,
+        scaffoldBackgroundColor: Colors.green.shade100,
+        textTheme: Theme.of(context).textTheme.apply(
+              bodyColor: Colors.green.shade50,
+              displayColor: Colors.green.shade50,
+            ),
+        textSelectionTheme: TextSelectionThemeData(
+            selectionColor: Colors.green.shade200,
+            selectionHandleColor: Colors.green.shade200),
       ),
       home: const MyHomePage(),
     );
@@ -44,7 +54,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int pageIndex = 0;
-  final pages = [ChatsScreen(), const ProfileScreen()];
+  final pages = [const ChatsScreen(), const ProfileScreen()];
 
   @override
   Widget build(BuildContext context) {

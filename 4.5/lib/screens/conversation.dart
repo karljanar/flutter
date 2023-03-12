@@ -14,9 +14,6 @@ class ConversationScreen extends StatefulWidget {
 
 class ConversationScreenState extends State<ConversationScreen> {
   late List<Conversation> conversationList;
-  final ScrollController _scrollController = ScrollController();
-  final myController = TextEditingController();
-  late String messageText;
 
   @override
   void initState() {
@@ -42,7 +39,11 @@ class ConversationScreenState extends State<ConversationScreen> {
     super.initState();
   }
 
-  void _addMessage(MessageType messageType) {
+  final ScrollController _scrollController = ScrollController();
+  final textController = TextEditingController();
+  late String messageText;
+
+  void _addMessage() {
     conversationList.add(Conversation(
         message: messageText,
         time: DateTime.now(),
@@ -57,43 +58,42 @@ class ConversationScreenState extends State<ConversationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text(widget.name),
-      ),
-      body: ListView(
-        controller: _scrollController,
-        children: [
-        ListView.builder(
-            shrinkWrap: true,
-            physics: const ScrollPhysics(),
-            itemCount: conversationList.length,
-            itemBuilder: (BuildContext context, int index) {
-              return ConversationList(
-                conversation: conversationList[index],
-              );
-            }),
-          const SizedBox(height: 50),
-      ],),
-
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text(widget.name),
+        ),
+        body: ListView(
+          controller: _scrollController,
+          children: [
+            ListView.builder(
+                shrinkWrap: true,
+                physics: const ScrollPhysics(),
+                itemCount: conversationList.length,
+                itemBuilder: (BuildContext context, int index) {
+                  return ConversationList(
+                    conversation: conversationList[index],
+                  );
+                }),
+            const SizedBox(height: 50),
+          ],),
         bottomSheet: SizedBox(
           height: 50.0,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: <Widget>[
+            children: [
               Expanded(
                 child: TextField(
-                  controller: myController,
+                  controller: textController,
                   onChanged: (value) => messageText = value,
                 ),
               ),
               IconButton(
                 onPressed: () {
                   if (messageText.isNotEmpty) {
-                    _addMessage(MessageType.text);
+                    _addMessage();
                     messageText = "";
-                    myController.clear();
+                    textController.clear();
                   }
                 },
                 icon: const Icon(

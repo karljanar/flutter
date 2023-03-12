@@ -66,8 +66,7 @@ class ConversationListState extends State<ConversationList> {
                                   fit: BoxFit.fill)
                               : Image.file(
                                   fit: BoxFit.fill,
-                                  File(widget.conversation.fileName!)
-                          ),
+                                  File(widget.conversation.fileName!)),
                         ),
                   const SizedBox(height: 14),
                 ]))

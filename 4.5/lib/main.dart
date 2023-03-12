@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           unselectedItemColor: Colors.green.shade900,
         ),
         bottomSheetTheme:
-            const BottomSheetThemeData(backgroundColor: Colors.green),
+        const BottomSheetThemeData(backgroundColor: Colors.green),
         cardColor: Colors.green,
         scaffoldBackgroundColor: Colors.green.shade100,
         textTheme: Theme.of(context).textTheme.apply(
@@ -38,7 +38,8 @@ class MyApp extends StatelessWidget {
             ),
         textSelectionTheme: TextSelectionThemeData(
             selectionColor: Colors.green.shade200,
-            selectionHandleColor: Colors.green.shade200),
+            selectionHandleColor: Colors.green.shade200
+        ),
       ),
       home: const MyHomePage(),
     );

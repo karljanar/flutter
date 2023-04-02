@@ -9,7 +9,7 @@ import '../models/conversation.dart';
 class ConversationList extends StatefulWidget {
   Conversation conversation;
 
-  ConversationList({Key? key, required this.conversation}) : super(key: key);
+  ConversationList({super.key, required this.conversation});
 
   @override
   ConversationListState createState() => ConversationListState();

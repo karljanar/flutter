@@ -7,7 +7,7 @@ import '../widgets/conversationList.dart';
 class ConversationScreen extends StatefulWidget {
   final String name;
 
-  const ConversationScreen({Key? key, required this.name}) : super(key: key);
+  const ConversationScreen({super.key, required this.name});
 
   @override
   ConversationScreenState createState() => ConversationScreenState();

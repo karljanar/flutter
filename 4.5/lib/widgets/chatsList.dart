@@ -6,7 +6,7 @@ import '../models/chats.dart';
 class ChatsList extends StatefulWidget {
   Chats chat;
 
-  ChatsList({Key? key, required this.chat}) : super(key: key);
+  ChatsList({super.key, required this.chat});
 
   @override
   ChatsListState createState() => ChatsListState();

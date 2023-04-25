@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/screens/conversation.dart';
+import 'package:untitled/screens/detailedChat.dart';
 
 import '../models/chats.dart';
 
@@ -21,7 +21,7 @@ class ChatsListState extends State<ChatsList> {
     return GestureDetector(
         onTap: () {
           Navigator.push(context, MaterialPageRoute(builder: (context) {
-            return ConversationScreen(name: widget.chat.name);
+            return DetailedChatScreen(name: widget.chat.name);
           }));
           setState(() {
             if (seenMessage == false) {

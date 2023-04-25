@@ -4,23 +4,23 @@ import 'package:date_format/date_format.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-import '../models/conversation.dart';
+import '../models/detailedChat.dart';
 
-class ConversationList extends StatefulWidget {
-  Conversation conversation;
+class DetailedChatList extends StatefulWidget {
+  DetailedChat detailedChat;
 
-  ConversationList({super.key, required this.conversation});
+  DetailedChatList({super.key, required this.detailedChat});
 
   @override
-  ConversationListState createState() => ConversationListState();
+  DetailedChatListState createState() => DetailedChatListState();
 }
 
-class ConversationListState extends State<ConversationList> {
+class DetailedChatListState extends State<DetailedChatList> {
   late bool isTextMessage;
 
   @override
   Widget build(BuildContext context) {
-    isTextMessage = widget.conversation.messageType == MessageType.text;
+    isTextMessage = widget.detailedChat.messageType == MessageType.text;
     return Column(
       children: [
         const CircleAvatar(
@@ -40,7 +40,7 @@ class ConversationListState extends State<ConversationList> {
                   const SizedBox(height: 7),
                   Center(
                     child: Text(
-                      "${widget.conversation.from} ${isTextMessage ? "said" : "sent"} on ${formatDate(widget.conversation.time, [
+                      "${widget.detailedChat.from} ${isTextMessage ? "said" : "sent"} on ${formatDate(widget.detailedChat.time, [
                             MM,
                             ' ',
                             d,
@@ -54,19 +54,19 @@ class ConversationListState extends State<ConversationList> {
                   const SizedBox(height: 7),
                   isTextMessage
                       ? SelectableText(
-                          widget.conversation.message!,
+                          widget.detailedChat.message!,
                           textScaleFactor: 1.5,
                         )
                       : Container(
                           alignment: Alignment.topCenter,
-                          child: widget.conversation.mediaLocation ==
+                          child: widget.detailedChat.mediaLocation ==
                                       MediaLocation.network ||
                                   kIsWeb
-                              ? Image.network(widget.conversation.fileName!,
+                              ? Image.network(widget.detailedChat.fileName!,
                                   fit: BoxFit.fill)
                               : Image.file(
                                   fit: BoxFit.fill,
-                                  File(widget.conversation.fileName!)),
+                                  File(widget.detailedChat.fileName!)),
                         ),
                   const SizedBox(height: 14),
                 ]))

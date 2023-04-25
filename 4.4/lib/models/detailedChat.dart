@@ -2,7 +2,7 @@ enum MessageType { text, media }
 
 enum MediaLocation { network, local }
 
-class Conversation {
+class DetailedChat {
   String? message;
   DateTime time;
   String? fileName;
@@ -10,7 +10,7 @@ class Conversation {
   String from;
   MessageType messageType;
 
-  Conversation(
+  DetailedChat(
       {this.message,
       required this.time,
       required this.from,

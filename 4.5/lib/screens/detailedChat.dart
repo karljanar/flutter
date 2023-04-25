@@ -1,36 +1,36 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:untitled/models/conversation.dart';
+import 'package:untitled/models/detailedChat.dart';
 
-import '../widgets/conversationList.dart';
+import '../widgets/detailedChatList.dart';
 
-class ConversationScreen extends StatefulWidget {
+class DetailedChatScreen extends StatefulWidget {
   final String name;
 
-  const ConversationScreen({super.key, required this.name});
+  const DetailedChatScreen({super.key, required this.name});
 
   @override
-  ConversationScreenState createState() => ConversationScreenState();
+  DetailedChatScreenState createState() => DetailedChatScreenState();
 }
 
-class ConversationScreenState extends State<ConversationScreen> {
-  late List<Conversation> conversationList;
+class DetailedChatScreenState extends State<DetailedChatScreen> {
+  late List<DetailedChat> detailedChatList;
 
   @override
   void initState() {
-    conversationList = [
-      Conversation(
+    detailedChatList = [
+      DetailedChat(
           message:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
           time: DateTime.now(),
           messageType: MessageType.text,
           from: widget.name),
-      Conversation(
+      DetailedChat(
           message: "Lorem ipsum dolor sit",
           time: DateTime.now(),
           messageType: MessageType.text,
           from: 'You'),
-      Conversation(
+      DetailedChat(
           time: DateTime.now(),
           messageType: MessageType.media,
           mediaLocation: MediaLocation.network,
@@ -53,13 +53,13 @@ class ConversationScreenState extends State<ConversationScreen> {
 
   void _addMessage(MessageType messageType) {
     if (messageType == MessageType.text){
-      conversationList.add(Conversation(
+      detailedChatList.add(DetailedChat(
           message: messageText,
           time: DateTime.now(),
           from: "You",
           messageType: messageType));
     } else {
-      conversationList.add(Conversation(
+      detailedChatList.add(DetailedChat(
           time: DateTime.now(),
           from: "You",
           fileName: _imageFile!.path,
@@ -86,10 +86,10 @@ class ConversationScreenState extends State<ConversationScreen> {
             ListView.builder(
                 shrinkWrap: true,
                 physics: const ScrollPhysics(),
-                itemCount: conversationList.length,
+                itemCount: detailedChatList.length,
                 itemBuilder: (BuildContext context, int index) {
-                  return ConversationList(
-                    conversation: conversationList[index],
+                  return DetailedChatList(
+                    detailedChat: detailedChatList[index],
                   );
                 }),
             const SizedBox(height: 50),

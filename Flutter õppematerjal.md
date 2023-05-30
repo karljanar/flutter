@@ -91,7 +91,7 @@ Nüüd tuleb <https://developer.android.com/studio> leheküljelt alla laadida An
 
 **Koodinäide 2. Downloads kataloogi minek ja Android Studio lahtipakkimine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.001.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.001.png)
 
 <a name="_geat3zhzdhi"></a>**Joonis 1. Android Studio lahtipakkimise käsu näide**
 
@@ -103,7 +103,7 @@ Järgmiseks on vaja seadistada virtuaalmasina kiirendus. Kõigepealt tuleb kontr
 
 <a name="_3nsd6yddnnxs"></a>**Koodinäide 3. Cpu-checker paketti installimine ja kvm-ok käsk**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.002.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.002.png)
 
 <a name="_p7obuhbmpkjc"></a>**Joonis 2. Kvm-ok käsu näide**
 
@@ -133,7 +133,7 @@ Virtuaalmasina kiirenduse seadistamine sõltub Windowsi operatsioonisüsteemis a
 
 Android Studio paigaldamiseks tuleb <https://developer.android.com/studio> leheküljelt see alla laadida kontrollides, et laete alla oma arvuti protsessorile vastava versiooni. Kui fail saab alla laetud, tuleb see avada ning lohistada Android Studio kataloogi **Applications** (Joonis 3).
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.003.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.003.png)
 
 <a name="_esu7u2qqx7zm"></a>**Joonis 3. Android Studio paigaldamine macOS operatsioonisüsteemile**
 
@@ -143,35 +143,35 @@ Vajalik on ka seadistada virtuaalmasina kiirendus. Alates macOS X versioonist 10
 
 Kui installer on oma töö ära teinud, avaneb uus aken. Järgmiseks on vaja installida Flutteri pistikprogramm, selleks tuleb valida vasakult menüüst **Plugins**, sealt valida **Flutter** ja vajutada **Install** (Joonis 4) peale mida teha restarti Android Studiole.
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.004.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.004.png)
 
 <a name="_e4fmjni0d5c8"></a>**Joonis 4. Android Studio Plugins Aken**
 
 Kui Android Studio on taas avanenud, tuleb vasakult menüüst valida **Projects**. Akna keskel on nüüd kolm nuppu reas ning nende all sinise kirjaga rippmenüü **More Actions**. Vajutades antud rippmenüü peale tuleb valida **SDK Manager** (Joonis 5). 
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.005.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.005.png)
 
 <a name="_oe9z9f8l61wj"></a>**Joonis 5. Android Studio Projects aken**
 
 Ilmunud aknas tuleb keskmisest menüüst valida **SDK Tools** ning ilmunud nimekirjas märgistada **Android SDK Command-Line Tools (latest)** märkeruut. macOSi ja Intel protsessoriga Windowsi puhul tuleb märgistada ka **Intel x86 Emulator Accelerator (HAXM installer)** märkeruut joonisel punkt **3.2**. AMD protsessoriga Windowsi jaoks peab valima **Android Emulator Hypervision Driver (installer)** joonisel punkt **3.1**. Kui kõik vajalikud tarkvaraarenduse komplektid on valitud võib vajutada **Apply** (Joonis 6). Kui Android Studio lõpetab installimise võib selle akna sulgeda.
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.006.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.006.png)
 
 <a name="_r3c98z6tinv"></a>**Joonis 6. Android Studio SDK Manager aken**
 
 Aeg on üles seada Android emulaator. Selleks tuleb Android Studio vasakult menüüst valida **Projects**. Akna keskel on kolm nuppu reas ning nende all sinise kirjaga rippmenüü **More Actions**. Vajutades antud rippmenüü peale tuleb valida **Virtual Device Manager** (Joonis 7). 
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.007.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.007.png)
 
 <a name="_2gqlw8lbrclg"></a>**Joonis 7. Android Studio Projects aken**
 
 **Device Manager** aknast tuleb valida **Create device**. Nüüd tuleb valida sobilik telefon, mida emuleerida. Antud õppematerjalis kasutame **Pixel 6 Pro**. Vajutades **Next** tuleb valida sobilik versioon, õppematerjalis kasutame **API Level** veerust versiooni **33**. **Release Name** veerus tuleb sobiva versiooni juures vajutada alla laadimise ikooni ning see paigaldada (Joonis 8). Kui sobilik versioon saab installitud, võib jätkata seadistamist vajutades **Next** nuppu. Nüüd saab üle kontrollida konfiguratsiooni ning seadistada graafika renderdus. Graafika renderdus tuleb muuta **Hardware - GLES 2.0** peale ja vajutada **Finish** (Joonis 9). Sellega saab Android Studio ülesseatud ning saame hakata paigaldama Flutteri tarkvaraarenduskomplekti.
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.008.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.008.png)
 
 <a name="_1s08c5la0dhi"></a>**Joonis 8. Android süsteemi versiooni paigaldamine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.009.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.009.png)
 
 <a name="_rp655ibwpn2j"></a>**Joonis 9. Android Studio Virtual Device Configuration**
 
@@ -202,7 +202,7 @@ Kui Git on kloonimise lõpetanud ja käsureale saab uuesti kirjutada, peab lisam
 
 Käsurea väljund peaks sarnanema nüüd olema sarnane (Joonis 10).
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.010.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.010.png)
 
 <a name="_lrt0kjqkp9pg"></a>**Joonis 10. Pwd käsu näide**
 
@@ -220,7 +220,7 @@ Faili tuleb lisada üks uus rida, kus määrame ära tee flutteri programmini (K
 
 <a name="_ai3rfjqi0hae"></a>**Koodinäide 9. Flutteri lisaminine PATHi**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.011.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.011.png)
 
 <a name="_ft3od54x9ak3"></a>**Joonis 11. Flutteri lisaminine PATHi**
 
@@ -231,7 +231,7 @@ Nüüd tuleb fail ära salvestada ning kinni panna ja käsureal värskendada kes
 
 <a name="_275ika6x3my8"></a>**Koodinäide 10. Kesta värskendamine .bashrc muudatustega ning flutteri tuvastamine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.012.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.012.png)
 
 <a name="_vjuxas2huboo"></a>**Joonis 12. Käsurea which flutter käsu näide**
 
@@ -247,19 +247,19 @@ Flutteri tarkvaraarenduskomplekti paigaldamiseks on vajalik avada käsurida, mil
 
 Nüüd kui Git on kloonimise lõpetanud ja käsureale saab uuesti kirjutada, võib käsurea sulgeda ning edasi peab lisama flutteri programmi, mis asub kloonitud kataloogis, **PATH** keskkonnamuutujasse, et seda saaks hiljem teistest programmidest käivitada. Windowsi stardimenüüse hakkame kirjutama “**environment**” ning üks hetk peaks arvuti tuvastama, et otsime valikud “**Edit the system environment variables**”, vajutame selle peale ning avaneb uus aken nimega **System Properties** (Joonis 13). Ilmunud aknast tuleb vajutada nupule **Environment Variables…** (Joonis 14). Uues aknas peab valima **User variables for <kasutaja>** alt **Path** ning vajutama nuppu **Edit** (Joonis 15). Ilmunud aknas peab tegema topeltkliki tühja rea peale ning kirjutama tee **C:\src\flutter\bin** peale selle lisame veel Android Studio tarkvaraarenduse komplekti lisades tühjale reale **C:\src\AndroidStudio\platforms** ning järgmisele reale **C:\src\AndroidStudio\platform-tools** (Joonis 16). Kuna me paigaldasime tarkvaraarenduskomplekti teise asukohta kui Android Studio tavaliselt pakub, siis peame ka määra uue asukoha **PATH** keskkonnamuutujas, muidu ei leiaks hiljem flutteri programm seda üles. Peale seda tuleb vajutada kõigis kolmes aknas nuppu **OK**.
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.013.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.013.png)
 
 <a name="_xeujnaivlwvk"></a>**Joonis 13. Stardimenüüs environment otsimine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.014.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.014.png)
 
 <a name="_kz82eijekmn0"></a><a name="_d6co1zckwuqz"></a>**Joonis 14. System Properties akans Environment Variables nupp**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.015.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.015.png)
 
 <a name="_f7qbgowiryx2"></a>**Joonis 15. Environment Variables akans User variables Path muutmine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.016.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.016.png)
 
 <a name="_svsbd59hto80"></a>**Joonis 16. Edit environment variable akans uue tee lisamine flutter bin kataloogi**
 
@@ -269,7 +269,7 @@ $ where flutter
 
 <a name="_q7ze2hqvz0wq"></a>**Koodinäide 12. Flutteri tuvastamine käsurealt**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.017.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.017.png)
 
 <a name="_t1wtea1mvm2b"></a>**Joonis 17. Flutteri tuvastamise väljund käsureal**
 ## <a name="_w3ox7acchms1"></a>2.3. Flutteri seadistamine käsureal
@@ -282,7 +282,7 @@ Käsureal tuleb nüüd aktsepteerida Android tarkvaraarenduskomplekti litsents k
 
 <a name="_37oaaxp830h3"></a>**Koodinäide 13. Flutter doctor**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.018.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.018.png)
 
 <a name="_vusry9inakes"></a>**Joonis 18. Flutter doctor käsu näide** 
 
@@ -296,23 +296,23 @@ $ sudo gem install cocoapods
 
 Flutter projekti loomine on Android Studios on üpriski lihtne. **Android Studio** avaaknast tuleb valida **Projects** ning keskmisest menüüst **New Flutter Project** (Joonis 19).
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.019.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.019.png)
 
 <a name="_tfj50ov4xw2m"></a>**Joonis 19. Android Studio New Flutter Project**
 
 Ilmunud **New Project** aknal tuleb kontrollida, kas vasakult menüüst on valitud **Flutter** kui ei ole siis tuleb see sealt valida. Seejärel vajutada **Next** ning valida projekti nimi. Juhul kui **Next** ei saa vajutada ning **Flutter SDK path** on tühi, peab vajutama nuppu **…** ning leidma **flutter** kataloogi ja vajutama **Ok** (Joonis 20). Antud õppematerjali raames tuleb projekti nimeks **demo**, aga selle nimi ei oma tähtsust ning ülejäänud valikud võib jätta vaikimisi olekusse ja vajutada **Finish** (Joonis 21). Vaikimisi olekusse jäänud valikud võimaldavad valida projekti asukohta kettal, kirjeldust, projekti tüüpi, organisatsiooni, Android ja iOS platvormi programmeerimiskeelt ning platvorme, mille peale rakendust luua soovitakse.
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.020.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.020.png)
 
 <a name="_op8jee4f35d1"></a>**Joonis 20. Flutter SDK path lisamine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.021.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.021.png)
 
 <a name="_bmut0bu7wls2"></a>**Joonis 21. Android Studio New Project**
 
 Kui projekt loodud saab, avaneb **Android Studio** projekti põhiaken. Akna vasakus ääres on projekti vaade (Project view), punane kast tähistusega 1, seal on näha kõik projekti kataloogid ja failid. Kõige olulisemad kataloogid on **lib**, kuhu tuleb kirjutada terve projekti kood ning **test** kuhu saab testid kirjutada. Akna üleval paremas ääres asub tööriistariba (toolbar), punane kast tähistusega 2, mis pakub erinevaid valikuid koodi jooksutamiseks (Joonis 22).
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.022.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.022.png)
 
 <a name="_41ew0vc2uuag"></a>**Joonis 22. Android Studio demo projekt**
 
@@ -332,13 +332,13 @@ Loodud **\_MyHomePageState** sisaldab funktsiooni **\_incrementCounter**, mis ku
 
 Rakenduse käivitamiseks on kõigepealt vaja panna tööle Android emulaator. Selleks tuleb tööriistaribalt valida **Device Manager** ning panna tööle varem loodud emulaator (Joonis 23). Windowsi puhul võib küsida, kas seadistada virtuaalmasina kiirendus, sealt peab valima **Ok** ning läbima installeris kõik sammud. Kui emulaator on tööle läinud, ilmub tööriistaribale selle nimi ja vajutades **Run** nupule läheb rakendus tööle (Joonis 24). Töötaval rakendusel on näha, kuidas on kõik vidinad lõpuks küljenduse on moodustanud. Ekraani üleval on rakenduseriba, kus on näha teksti, mida **MyApp** klassis sai **MyHomePage** klassile kaasa antud. Keskel on kaks rida teksti ning all paremas nurgas on nupp, mida vajutades ekraani keskel olev arv suureneb (Joonis 25).
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.023.png)<a name="_vbhudwlcp07r"></a>**Joonis 23. Emulaatori käivitamine**
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.023.png)<a name="_vbhudwlcp07r"></a>**Joonis 23. Emulaatori käivitamine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.024.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.024.png)
 
 <a name="_a3tcrqmsybob"></a>**Joonis 24. Rakenduse käivitamine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.025.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.025.png)
 
 <a name="_pr08th7qujb5"></a>**Joonis 25. Töötav rakendus.**
 
@@ -355,11 +355,11 @@ Selle alapeatüki käigus loome kaks uut ekraani, sõnumite ning profiili jaoks 
 
 Uute ekraanide jaoks loome kaks uut **dart** faili **chats** ja **profile**. Mugav oleks need kohe **main.dart** failiga samase kataloogi panna kuid failide arvu suurenemisega oleks raskem õiget faili kiirelt üles leida. Peamine meetod selle probleemi lahendamiseks on luua eraldi kataloogid ekraanide, vidinate, mudelite ning teenuste jaoks. Seda me ka selle õppematerjali puhul kasutame. Android Studios uue kataloogi loomiseks tuleb **lib** kataloogi peale teha parem klikk, valida **new** seejärel **directory** (Joonis 26). Kataloogi nimeks tuleb panna **screens**, sinna kataloogi tulevad kõik meie rakenduse erinevad ekraanid. Uue dart faili loomiseks tuleb teha parem klikk **screens** kataloogil, valida **new** ning siis valida **Dart File** (Joonis 27). Uue faili nimeks tuleb panna **chats**. Korrata seda protsessi ühe korra veel ning luua ka **profile** nimeline fail.
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.026.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.026.png)
 
 <a name="_nsw6u841k8na"></a>**Joonis 26. Uue kataloogi loomine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.027.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.027.png)
 
 <a name="_yqzdlmocj6pq"></a><a name="_2wddk17i0whv"></a>**Joonis 27. Uue dart faili loomine**
 
@@ -413,7 +413,7 @@ Varasemalt tühjaks tehtud **MyHomePage** vidina olekusse **\_MyHomePageState** 
 
 Käivitades rakenduse, peaks olema nüüd näha rohelist värvi ülemist rakenduseriba tekstiga “**Chats**”, valge taustaga keha tekstiga “**CHATS**” ning rohelist alumist navigeerimisriba kahe ikooniga (Joonis 28). Vajutades ikoonidele peaks ülemise rakenduseriba tekst ja keha tekst muutuma vastavalt klikitud või puudutatud ikoonile.
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.028.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.028.png)
 
 <a name="_qwaek9yuohr3"></a>**Joonis 28. Kahe ekraaniga rakendus.**
 
@@ -473,7 +473,7 @@ Tagasi sõnumite ekraanile **screens/chats.dart** minnes, tuleb importida just l
 
 <a name="_pkcbjaquyh1j"></a>**Koodinäide 26. Loodud ChatsList vidina kasutusele võtmine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.029.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.029.png)
 
 <a name="_129f0zl9nfgs"></a>**Joonis 29. Sõnumite ekraanil paneelid**
 
@@ -495,7 +495,7 @@ Viimase asjana lisame vidinasse loogika sõnumi kellaaja ja sisu kuvamiseks. Pea
 
 Emulaatoris programmi jooksutades on nüüd näha avatari koos nimega ning sõnumi kella aega ja sisu. Neid on küll näha, aga samas on nähtaval ka mitmed probleemid (Joonis 30). Esiteks avatar ei mahu paneeli peale ilusti ning vasakult on see lühemaks tehtud. Lihtsamaid mooduseid selle probleemi parandamiseks on lisada konstante vidin **SizedBox** enne **CircleAvatar** vidinat ning panna selle omaduse **width** väärtuseks **4** pikslit. Üks probleemidest, mis veel silma jääb on avatari ja tekstide vahe on liiga väike, seda saab samamoodi parandada **SizedBox** vidinaga, seekord pannes **width** omaduse **8** piksli peale. Kõige rohkem jääb muidugi silma musta ja kollaste triipudega veateade, mis ütleb, et vidinal on ületäide (overflow) mitmesaja piksliga. Viga seisneb selles, et meil on suur jada teksti pandud ühte ritta, kuhu see ära ei mahu. Vea parandamiseks tuleb meil **Column** vidin, mähkida **Expanded** vidinaga. See vidin lubab oma tütar vidinatel võtta kasutusele kõik vaba pinna. Veel on vaja lisada **Text** vidinasse, mis näitab sõnumi sisu, omadus **overflow** ja selle väärtuseks tuleb panna **TextOverflow.ellipsis**. Kohast, kus teksts hakkas varem üle serva välja jooksma, on nüüd näha kolme punkti (Joonis 31 ja Koodinäide 29).
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.030.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.030.png)
 
 <a name="_gcr384yrkn9c"></a>**Joonis 30. Kujundus probleemidega ChatsList vidin**
 
@@ -505,7 +505,7 @@ Emulaatoris programmi jooksutades on nüüd näha avatari koos nimega ning sõnu
 
 <a name="_xtx7kdqv8sp9"></a>**Koodinäide 29. ChatsList kujundus probleemide lahendamine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.031.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.031.png)
 
 <a name="_nzi6s6tu5gf8"></a>**Joonis 31. ChatsList vidinas korrastatud kujundus**
 
@@ -533,7 +533,7 @@ Loome **widgets** kataloogi uue **dart** faili nimega **searchBar** ning avame s
 
 <a name="_r8c8t5kij0l5"></a>**Koodinäide 31. Sõnumi ekraanil SearchBar vidina kuvamine**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.032.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.032.png)
 
 <a name="_g8xowz4a23ng"></a>**Joonis 32. Sõnumi ekraanil kuvatav SearchBar vidin**
 
@@ -562,7 +562,7 @@ Sõnumite ekraani failis **screens/chats.dart** peame tegema mitu muudatust. Esi
 
 <a name="_28tkh38ia70n"></a>**Koodinäide 34. callback funktsiooni lisamine sõnumite ekraanile**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.033.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.033.png)
 
 <a name="_ybdzbq9brh6m"></a>**Joonis 33. Töötav SearchBar vidin sõnumite ekraanil**
 
@@ -588,11 +588,11 @@ Kui me praegu üritame vajutada sõnumi peale, siis midagi ei juhtuks, meil on v
 
 <a name="_bg1w0i63yw5x"></a>**Koodinäide 36. Vestluse ekraanile navigeerimine sõnumite ekraanilt**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.034.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.034.png)
 
 <a name="_b9iope5xp4id"></a>**Joonis 34. Vestlus ekraani rakenduseriba**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.035.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.035.png)
 
 <a name="_f8odutbqtg5y"></a>**Joonis 35. User2 sõnum märgitud loetuna**
 
@@ -631,7 +631,7 @@ Lisame **main.dart** failis **ThemeData** klassi uue omaduse **textSelectionThem
 
 Rakendust jooksutades ja valides sõnumi ühe kasutaja, avaneb meil loodud ekraan ning näeme vestlust. Kuvatud on nii tekst sõnumid kui ka pildid. Sõnumi päises on märgitud kes, millal saatis kuid me võiksime seda kuidagi paremaks muuta ja kuupäeva mitte nii täpselt kuvada. Saaksime luua funktsiooni, mis vormistab kuupäeva nii nagu meile sobiks või saaksime kasutada kellegi teise poolt loodud vormistamise paketti. Teiste inimeste poolt loodud pakette on võimalik leida aadressilt <https://pub.dev/>. Kuupäeva vormistamiseks kasutame paketti nimega **date\_format**, mille lisamiseks peame avama **pubspec.yaml** faili, ning lisama selle paketi **dependencies** alla, märkides ära ka versiooni **2.0.7**. Järgmiseks peab selle paketti alla laadima, seda võib teha **Flutter Commands** rakenduseribalt valides **Pub get**, mis ilmub kui **pubspec.yaml** failis on toimunud muudatusi (Joonis 36).
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.036.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.036.png)
 
 <a name="_ugqamygiocq4"></a>**Joonis 36. Paketti lisamine ning allalaadimine**
 
@@ -667,7 +667,7 @@ Sõnumite saatmiseks peame vestluse ekraanil **screens/detailedChat.dart** lisam
 
 <a name="_iav9hlitk307"></a>**Koodinäide 43. bottomSheetTheme lisamine ThemeData klassi**
 
-![](Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.037.png)
+![\0](images/Aspose.Words.acb1dd9c-a40e-4abf-a782-294aee38de6a.037.png)
 
 <a name="_6v9skxujysvz"></a>**Joonis 37. Tekstsõnumi saatmine vestlusesse**
 
